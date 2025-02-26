@@ -1,0 +1,11 @@
+<h2>Delete a User</h2>
+<form action="/user/delete" method="POST">
+    <input type="hidden" name="_method" value="DELETE">
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Password:</label>
+    <input type="password" name="password" required>
+
+    <button type="submit">Delete User</button>
+</form>
